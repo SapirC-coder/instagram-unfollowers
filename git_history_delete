@@ -1,0 +1,5 @@
+git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch path_to_file' HEAD
+
+git-filter-repo --sensitive-data-removal --invert-paths --path PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
