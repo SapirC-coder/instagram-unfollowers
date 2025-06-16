@@ -1,0 +1,2 @@
+FOLLOWING = "following"
+FOLLOWERS = "followers"
