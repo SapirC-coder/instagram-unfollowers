@@ -15,4 +15,5 @@ a script that analyzes unfollowers using .har files
 
 ### 2. Update user_id on temp_config.py
 
-### 3. Run unfollowers.py
+### 3. Run unfollowers.py 
+(you can alter filter_usernames.py the way you want)
