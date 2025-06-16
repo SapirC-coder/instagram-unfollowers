@@ -19,11 +19,14 @@ for user in following_usernames:
 
 print("unfollowers:")
 print(len(unfollowers))
+print(len(set(unfollowers)))
 print(unfollowers)
 
 print("following:")
 print(len(following_usernames))
+print(len(set(following_usernames)))
 print(following_usernames)
 print("followers:")
 print(len(followers_usernames))
+print(len(set(followers_usernames)))
 print(followers_usernames)
